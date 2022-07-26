@@ -2,6 +2,8 @@ local player = game:GetService("Players").LocalPlayer
 
 if game.PlaceId == 3652625463 then
   loadstring(game:HttpGet("https://raw.githubusercontent.com/Emistary/pub/main/Lifting%20Simulator"))() 
+elseif game.PlaceID == 3623096087 then 
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/Emistary/pub/main/MuscleLegends"))()
 else
   player:Kick("Invalid Game!")
 end
